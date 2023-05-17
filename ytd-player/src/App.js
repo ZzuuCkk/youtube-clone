@@ -19,11 +19,34 @@ function App() {
             <div className='firstCol'>
               <div className='whosChanelIs'>
                 <img></img>
-                <div className='name'></div>
+                <div className='name'>
+                  <p>IGN</p>
+                  <span>17m subscribers</span>
+                </div>
               </div>
-              <button>Subscribe</button>
+              <div className='subscribe'>
+                <button>Subscribe</button>
+                <img></img>
+              </div>
+            </div>
+            <div className='secondCol'>
+              <div className='likeUnlike'>
+                <div className='like'>
+                  <button>s</button>
+                  <span></span>
+                </div>
+                
+                <div className='unlike'>
+                  <button></button>
+                  <span></span>
+                </div>
+                <button></button>
+                <button></button>
+                <button></button>
+              </div>
             </div>
           </div>
+          <div className='comments'></div>
         </div>
   </div>
   );
