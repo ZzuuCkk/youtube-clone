@@ -1,5 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container{
-    background-color: #0f0f0f;
+    /* background-color: #0f0f0f; */
     width: 100%;
     height: 100vh;
     display: flex;
@@ -18,10 +23,122 @@
     margin: 20px auto;
   }
 
+  .below{
+    /* background-color: #0f0f0f; */
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
   .title{
-    width: 100%;
-    margin: 0 auto;
+    color: #f1f1f1;
+    word-break: break-word;
+    font-size: 2rem;
+    line-height: 2.8rem;
+    font-weight: 600;
   }
-  h1{
-    color: wheat;
+.panel{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 50px;
+}
+  .firstCol{
+    margin-top: -4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
   }
+  .whosChanelIs{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .whosChanelIs img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .name{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .name p{
+    /* color: #f1f1f1; */
+    font-size: 16px;
+  }
+  .name span{
+    /* color: #AAAAAA; */
+    font-size: 12px;
+  }
+
+  .subscribe{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .subscribe button{
+    background-color: #f1f1f1;
+    width: 95px;
+    border-radius: 20px;
+    border: none;
+  }
+
+  .secondCol{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .likeUnlike{
+    width: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+
+  }
+.like{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: ; */
+}
+.likebutton,
+.unlikebutton{
+  width: 79px;
+  height: 30px;
+  /* border-radius: 20px; */
+  border: none;
+  /* background: transparent; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.likebutton{
+ border-radius: 10px 0 0  10px;
+}
+
+.unlikebutton{
+ border-radius:  0 10px 10px 0;
+}
+.likebutton span{
+  padding: 10px;
+}
+.likebutton-img{
+  width: 20px;
+  height: 20px;
+}
+.line{
+  width: 1px;
+  height: 30px;
+  border: 1px solid rgb(97, 93, 93);
+}
