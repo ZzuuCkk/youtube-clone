@@ -1,3 +1,27 @@
+.container{
+    background-color: #0f0f0f;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
 .player-wrapper{
+    width: 100%;
+    height: 500px;
     
 }
+
+.react-player {
+    width: 80% !important;
+    height: 100% !important;
+    margin: 20px auto;
+  }
+
+  .title{
+    width: 100%;
+    margin: 0 auto;
+  }
+  h1{
+    color: wheat;
+  }
