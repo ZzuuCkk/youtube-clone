@@ -37,6 +37,8 @@ function App() {
             </div>
             <div className='secondCol'>
               <div className='likeUnlike'>
+                <div className='but-holder'>
+
                   <div className='like'>
                     <button className='likebutton'><img src={like} alt='logo' className='likebutton-img'/> <span>590</span></button>
                   </div>
@@ -44,6 +46,7 @@ function App() {
                   <div className='unlike'>
                     <button className='unlikebutton'><img src={unlike} alt='logo' className='likebutton-img'/><span>1</span> </button>
                   </div>
+                </div>
                   <button className='share'><img src={share} alt='logo' className='likebutton-img'/><span className='bspan'>share</span> </button>
                   <button className='download'><img src={download} alt='logo' className='likebutton-img'/><span className='bspan'>download</span> </button>
                   <button className='dots'><img src={dots} alt='logo' className='likebutton-img'/> </button>

@@ -106,7 +106,13 @@ button{
     /* width: 200px; */
     display: flex;
     flex-wrap: wrap;
-    margin-right: 80px;
+    gap: 7px;
+    margin-right: 120px;
+
+  }
+  .but-holder{
+    display: flex;
+    flex-wrap: wrap;
 
   }
 .like{
