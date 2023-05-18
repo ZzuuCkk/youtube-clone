@@ -1,8 +1,10 @@
 import './style.css';
 import logo from './images/IGN.png'
 import like from './images/like.svg'
-import unlike from './images/unlike.svg'
-import share from './images/share.svg'
+import unlike from './images/unlike.png'
+import share from './images/share.png'
+import download from './images/download.png'
+import dots from './images/dots.png'
 import Player from './player/Player';
 
 
@@ -42,13 +44,23 @@ function App() {
                   <div className='unlike'>
                     <button className='unlikebutton'><img src={unlike} alt='logo' className='likebutton-img'/><span>1</span> </button>
                   </div>
-                  <button className='share'><img src={share} alt='logo' className='likebutton-img'/><span>1</span> </button>
-                <button></button>
-                <button></button>
+                  <button className='share'><img src={share} alt='logo' className='likebutton-img'/><span className='bspan'>share</span> </button>
+                  <button className='download'><img src={download} alt='logo' className='likebutton-img'/><span className='bspan'>download</span> </button>
+                  <button className='dots'><img src={dots} alt='logo' className='likebutton-img'/> </button>
+                
+               
               </div>
             </div>
+           </div>
+          <div className='review'>
+            <div className='rev-txt'>
+              <div className='maintxt'>
+            <h2>20k views</h2>
+            <span>1 hour ago</span>
+              </div>
+            <p> anf;ewnf;nwefnao;weinfoawenf;oewnf;</p>
+            </div>
           </div>
-          <div className='comments'></div>
         </div>
   </div>
   );
